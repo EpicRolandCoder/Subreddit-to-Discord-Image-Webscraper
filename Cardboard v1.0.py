@@ -15,7 +15,7 @@ async def on_ready():
 @client.command()
 async def c(ctx):
   await ctx.send("This bot sends memes from certain subreddits to a discord channel")
-  await ctx.send("As of version 1.4.20, the bot sends memes from memes, dankmemes, and shitposting")
+  await ctx.send("As of version 1.0, the bot sends memes from memes, dankmemes, and shitposting")
   await ctx.send("Type ',[insert subreddit here]'... for example: ',shitpost'")
 
 @client.command()
